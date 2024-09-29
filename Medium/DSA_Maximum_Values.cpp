@@ -36,7 +36,7 @@ int main() {
     int size = sizeof(scores) / sizeof(scores[0]);
     int topN = 5;
 
-    // Perform selection sort in descending order
+    // Perform selection sort in descending order 
     selectionSortDescending(scores, size);
 
     // Print the top 5 scores
